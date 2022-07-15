@@ -49,6 +49,8 @@ app.post('/api/notes', (req, res) => {
     const newNote = createNewNote(req.body, notesDb);
     res.json(newNote);
 })
+app.delete('/api/notes/', (req, res) => {
+})
 app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
 });
