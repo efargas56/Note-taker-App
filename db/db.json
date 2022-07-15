@@ -1,2 +1,18 @@
 [
+  3,
+  {
+    "title": "this is a test note",
+    "text": "testing notes\n",
+    "id": 0
+  },
+  {
+    "title": "these notes should save",
+    "text": "in json format",
+    "id": 1
+  },
+  {
+    "title": "they have unique ID",
+    "text": "this should have ID 2",
+    "id": 2
+  }
 ]
